@@ -1,0 +1,306 @@
+{
+  
+  "ingTypesList": [
+    {
+      "__type": "IndependentType:#DieticNutritionApp.Classes",
+      "ingredients": [],
+      "name": "Fruits",
+      "temperatureDependent": false,
+      "wayOfCookingDependent": false
+    },
+    {
+      "__type": "CookingDependentType:#DieticNutritionApp.Classes",
+      "ingredients": [],
+      "name": "Vegetables",
+      "temperatureDependent": false,
+      "wayOfCookingDependent": true,
+      "additionalCalories": 4,
+      "cookingType": 6
+    }
+  ],
+  "ingredientsList": [
+    {
+      "ingredientType": {
+        "__type": "CookingDependentType:#DieticNutritionApp.Classes",
+        "ingredients": [],
+        "name": "Vegetables",
+        "temperatureDependent": false,
+        "wayOfCookingDependent": true,
+        "additionalCalories": 4,
+        "cookingType": 6
+      },
+      "name": "Onion",
+      "organicParts": {
+        "carbs": 4,
+        "fats": 1,
+        "minerals": 6,
+        "proteins": 3,
+        "vitamins": 5
+      },
+      "wIngredients": []
+    },
+    {
+      "ingredientType": {
+        "__type": "IndependentType:#DieticNutritionApp.Classes",
+        "ingredients": [],
+        "name": "Fruits",
+        "temperatureDependent": false,
+        "wayOfCookingDependent": false
+      },
+      "name": "Apple",
+      "organicParts": {
+        "carbs": 4,
+        "fats": 7,
+        "minerals": 4,
+        "proteins": 5,
+        "vitamins": 2
+      },
+      "wIngredients": []
+    },
+    {
+      "ingredientType": {
+        "__type": "IndependentType:#DieticNutritionApp.Classes",
+        "ingredients": [],
+        "name": "Fruits",
+        "temperatureDependent": false,
+        "wayOfCookingDependent": false
+      },
+      "name": "Pineapple",
+      "organicParts": {
+        "carbs": 2,
+        "fats": 1,
+        "minerals": 2,
+        "proteins": 4,
+        "vitamins": 5
+      },
+      "wIngredients": []
+    }
+  ],
+  "recipesList": [
+    {
+      "cookingType": 1,
+      "description": "Best dish",
+      "name": "Oliver",
+      "temperature": 30,
+      "wIngredients": [
+        {
+          "ingredient": {
+            "ingredientType": {
+              "__type": "CookingDependentType:#DieticNutritionApp.Classes",
+              "ingredients": [],
+              "name": "Vegetables",
+              "temperatureDependent": false,
+              "wayOfCookingDependent": true,
+              "additionalCalories": 4,
+              "cookingType": 6
+            },
+            "name": "Onion",
+            "organicParts": {
+              "carbs": 4,
+              "fats": 1,
+              "minerals": 6,
+              "proteins": 3,
+              "vitamins": 5
+            },
+            "wIngredients": []
+          },
+          "recipes": [],
+          "weight": 300,
+          "weightedOrgParts": {
+            "carbs": 12,
+            "fats": 3,
+            "minerals": 18,
+            "proteins": 9,
+            "vitamins": 15
+          }
+        },
+        {
+          "ingredient": {
+            "ingredientType": {
+              "__type": "IndependentType:#DieticNutritionApp.Classes",
+              "ingredients": [],
+              "name": "Fruits",
+              "temperatureDependent": false,
+              "wayOfCookingDependent": false
+            },
+            "name": "Apple",
+            "organicParts": {
+              "carbs": 4,
+              "fats": 7,
+              "minerals": 4,
+              "proteins": 5,
+              "vitamins": 2
+            },
+            "wIngredients": []
+          },
+          "recipes": [],
+          "weight": 100,
+          "weightedOrgParts": {
+            "carbs": 4,
+            "fats": 7,
+            "minerals": 4,
+            "proteins": 5,
+            "vitamins": 2
+          }
+        },
+        {
+          "ingredient": {
+            "ingredientType": {
+              "__type": "IndependentType:#DieticNutritionApp.Classes",
+              "ingredients": [],
+              "name": "Fruits",
+              "temperatureDependent": false,
+              "wayOfCookingDependent": false
+            },
+            "name": "Pineapple",
+            "organicParts": {
+              "carbs": 2,
+              "fats": 1,
+              "minerals": 2,
+              "proteins": 4,
+              "vitamins": 5
+            },
+            "wIngredients": []
+          },
+          "recipes": [],
+          "weight": 200,
+          "weightedOrgParts": {
+            "carbs": 4,
+            "fats": 2,
+            "minerals": 4,
+            "proteins": 8,
+            "vitamins": 10
+          }
+        }
+      ]
+    },
+    {
+      "cookingType": 2,
+      "description": "A lot of them",
+      "name": "Plate of pinaples",
+      "temperature": 33,
+      "wIngredients": [
+        {
+          "ingredient": {
+            "ingredientType": {
+              "__type": "IndependentType:#DieticNutritionApp.Classes",
+              "ingredients": [],
+              "name": "Fruits",
+              "temperatureDependent": false,
+              "wayOfCookingDependent": false
+            },
+            "name": "Pineapple",
+            "organicParts": {
+              "carbs": 2,
+              "fats": 1,
+              "minerals": 2,
+              "proteins": 4,
+              "vitamins": 5
+            },
+            "wIngredients": []
+          },
+          "recipes": [],
+          "weight": 200,
+          "weightedOrgParts": {
+            "carbs": 4,
+            "fats": 2,
+            "minerals": 4,
+            "proteins": 8,
+            "vitamins": 10
+          }
+        }
+      ]
+    }
+  ],
+  "wIngredientsList": [
+    {
+      "ingredient": {
+        "ingredientType": {
+          "__type": "CookingDependentType:#DieticNutritionApp.Classes",
+          "ingredients": [],
+          "name": "Vegetables",
+          "temperatureDependent": false,
+          "wayOfCookingDependent": true,
+          "additionalCalories": 4,
+          "cookingType": 6
+        },
+        "name": "Onion",
+        "organicParts": {
+          "carbs": 4,
+          "fats": 1,
+          "minerals": 6,
+          "proteins": 3,
+          "vitamins": 5
+        },
+        "wIngredients": []
+      },
+      "recipes": [],
+      "weight": 300,
+      "weightedOrgParts": {
+        "carbs": 12,
+        "fats": 3,
+        "minerals": 18,
+        "proteins": 9,
+        "vitamins": 15
+      }
+    },
+    {
+      "ingredient": {
+        "ingredientType": {
+          "__type": "IndependentType:#DieticNutritionApp.Classes",
+          "ingredients": [],
+          "name": "Fruits",
+          "temperatureDependent": false,
+          "wayOfCookingDependent": false
+        },
+        "name": "Apple",
+        "organicParts": {
+          "carbs": 4,
+          "fats": 7,
+          "minerals": 4,
+          "proteins": 5,
+          "vitamins": 2
+        },
+        "wIngredients": []
+      },
+      "recipes": [],
+      "weight": 100,
+      "weightedOrgParts": {
+        "carbs": 4,
+        "fats": 7,
+        "minerals": 4,
+        "proteins": 5,
+        "vitamins": 2
+      }
+    },
+    {
+      "ingredient": {
+        "ingredientType": {
+          "__type": "IndependentType:#DieticNutritionApp.Classes",
+          "ingredients": [],
+          "name": "Fruits",
+          "temperatureDependent": false,
+          "wayOfCookingDependent": false
+        },
+        "name": "Pineapple",
+        "organicParts": {
+          "carbs": 2,
+          "fats": 1,
+          "minerals": 2,
+          "proteins": 4,
+          "vitamins": 5
+        },
+        "wIngredients": []
+      },
+      "recipes": [],
+      "weight": 200,
+      "weightedOrgParts": {
+        "carbs": 4,
+        "fats": 2,
+        "minerals": 4,
+        "proteins": 8,
+        "vitamins": 10
+      }
+    }
+  ]
+}

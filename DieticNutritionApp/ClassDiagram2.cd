@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DieticNutritionApp.Classes.OrganicParts">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAEYAIAAAAAEAAQCAAABAAAAAAAAAA=</HashCode>
+      <FileName>Classes\OrganicParts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Ingredient">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAgAAAAAAAAECAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Ingredient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.IngredientType">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkAAAAASAAAAAEAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Classes\IngredientTypes\IngredientType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.IndependentType">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Classes\IngredientTypes\IndependentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.CookingDependentType">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAAAAICAAAAAA=</HashCode>
+      <FileName>Classes\IngredientTypes\CookingDependentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.TemperatureDependentType">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAIAABAAAA=</HashCode>
+      <FileName>Classes\IngredientTypes\TemperatureDependentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.DailyRation">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAgAIAAABAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\DailyRation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Recipe">
+    <Position X="14" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEIAAUAAgAAAAEAAAAAAQAAACAAAA=</HashCode>
+      <FileName>Classes\Recipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.WeightedIngredient">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAQAAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WeightedIngredient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Serialization.MyJsonSerializer">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Serialization\MyJsonSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Serialization.MyTxtSerializer">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAKAAAAAAAAAAAAAAEAAAACBAAAAAAAIAAAACBAA=</HashCode>
+      <FileName>Classes\Serialization\MyTxtSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Serialization.MyXmlSerializer">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Serialization\MyXmlSerializer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DieticNutritionApp.Classes.Data">
+    <Position X="15.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAABAAAAAAAAAAABIAAAAA=</HashCode>
+      <FileName>Classes\Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DieticNutritionApp.Classes.Serialization.IDataSerializer" Collapsed="true">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Serialization\IDataSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.IComparable">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

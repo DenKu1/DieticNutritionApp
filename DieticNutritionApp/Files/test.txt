@@ -1,0 +1,16 @@
+@it0=TemperatureDependentType{Grain,50}
+@it1=IndependentType{Vegetables}
+@it2=IndependentType{Fruits}
+
+@g0=Ingredient{Rise,@it0,34,22,54,53,12}
+@g1=Ingredient{Carrot,@it1,5,32,63,74,15}
+@g2=Ingredient{Onion,@it1,7,42,5,12,3}
+@g3=Ingredient{Apple,@it1,12,32,5,12,2}
+
+@wi0=WeightedIngredient{@g0,500}
+@wi1=WeightedIngredient{@g1,300}
+@wi2=WeightedIngredient{@g2,350}
+@wi3=WeightedIngredient{@g3,500}
+
+Recipe{Rise,[@wi0;@wi2;@wi1],90,0,The best rise ever!}
+Recipe{Baked apples,[@wi3],200,0,Just apples baked in the oven}

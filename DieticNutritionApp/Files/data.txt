@@ -1,0 +1,10 @@
+@it0=IndependentType{Fruits}
+@it1=CookingDependentType{Vegetables,4,6}
+
+@g0=Ingredient{Onion,@it1,3,1,4,5,6}
+@g1=Ingredient{Apple,@it0,5,7,4,2,4}
+@g2=Ingredient{Pineapple,@it0,4,1,2,5,2}
+
+@wi0=WeightedIngredient{@g0,50}
+
+Recipe{123,[@wi0],1,1,ffff}
