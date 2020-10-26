@@ -19,7 +19,7 @@ Main functionality:
 Main features:
 + Windows Forms interface
 + JSON & XML Serailization
-+ Working with files 
++ working with files 
 
 UML diagrams:
 + classes diagram (https://drive.google.com/file/d/1Y_wrYbxkAPe6q5sDFfHaB_4Ba4nrvz7c/view?usp=sharing)
